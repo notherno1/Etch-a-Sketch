@@ -8,7 +8,6 @@ body {
     width: 85vw;
     display: flex;
     justify-content: space-between;
-    outline: auto;
     gap: 10vw;
     
 }
@@ -16,7 +15,6 @@ body {
     display: flex;
     flex-shrink: 3;
     justify-content: center;
-    outline: auto;
     flex-shrink: 4;
     flex-direction: column;
     max-width: 15vw;
@@ -33,13 +31,11 @@ body {
     align-self: center;
     flex: 1;
     flex-basis: 1px;
-    outline: auto;
     align-items: stretch;
 }
 
 .grid-row {
-    outline: auto;
-    outline-color: red;
+
     flex: 1;
     aspect-ratio: 1 / 1 ;
     display: flex;
